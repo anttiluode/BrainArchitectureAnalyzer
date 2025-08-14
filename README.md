@@ -54,12 +54,9 @@ and a Sankey diagram for the "Map of Thoughts."
 
 Install Dependencies:
 
-Bash
 
 pip install gradio torch numpy mne scikit-learn plotly
 Run the Script:
-
-Bash
 
 python brain_arch_analysis.py
 
