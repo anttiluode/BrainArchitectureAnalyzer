@@ -1,5 +1,8 @@
 ![image](./image.png)
 
+EDIT: Added new brain_set_system.py that can also analyze multiple users according to set theory. 
+      something GPT 5 suggested. It also has Umap and tsne. 
+
 # 🧠 Brain Architecture Analyzer
 
 This tool visualizes the deep functional architecture of the human brain by analyzing raw EEG data. 
