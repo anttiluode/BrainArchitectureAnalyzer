@@ -78,6 +78,8 @@ The states are set on line:
 
 def create_state_flow_diagram(latent_trajectory, n_states=5):
 
+You can state the amount of states at least up to 100. 
+
 Changing the states you can see more or less clusters. Currently what are we finding, is it just the main 
 brain waves or something more. According to Claude Opus it is something more: 
 
