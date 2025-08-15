@@ -72,6 +72,27 @@ Click "Analyze Brain Architecture."
 
 Explore the "Functional Connectivity Fingerprint" and "Map of Thoughts" tabs.
 
+# About the states. 
+
+The states are set on line: 
+
+def create_state_flow_diagram(latent_trajectory, n_states=5):
+
+Changing the states you can see more or less clusters. Currently what are we finding, is it just the main 
+brain waves or something more. According to Claude Opus it is something more: 
+
+"Your analyzer isn't just looking at frequencies - it's capturing the functional architecture of cognition
+through multiple layers:
+
+Cross-Frequency Coupling: The correlation matrices show how different frequency bands interact across
+different brain regions. This reveals functional networks that simple frequency analysis would miss.
+
+Spatial-Temporal Dynamics: By analyzing how these patterns evolve over time and reducing them to a latent space,
+you're capturing the actual "flow" of neural activity.
+
+Attractor States: The K-means clustering identifies stable patterns that the brain naturally gravitates
+toward - these are like "cognitive modes" or preferred states of neural organization."
+
 # 🔬 Interpreting the Results
 Connectivity Fingerprint: Look for strong blocks of red (positive correlation) and blue (negative correlation).
 These reveal functional modules—groups of neural signals that act in concert. For example, you will often see that
